@@ -1,0 +1,29 @@
+{
+  "name": "xtpl2",
+  "version": "0.1.0",
+  "description": "a bundle module for xtpl & xtemplate",
+  "author": "Herman Lee <threeday0905@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:threeday0905/xtpl2.git"
+  },
+  "dependencies": {
+    "caller-lookup": "~0.2.0",
+    "xtemplate": "~3.7.0",
+    "xtpl": "~3.1.7"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "jscs": "*",
+    "jshint": "*",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">= 0.11.0"
+  },
+  "scripts": {
+    "test": "jscs {*.js,lib,test} & jshint . --exclude-path .gitignore & mocha --harmony 'test/**/*.test.js'"
+  },
+  "license": "MIT"
+}
