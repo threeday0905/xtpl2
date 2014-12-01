@@ -18,4 +18,4 @@ Support `koa` in another way, like
     
 ---
 
-actually xtpl is very good. this module just for neat freak, like me : ).
+actually xtpl is a awesome module. this module just for neat freak user, like me : ).
